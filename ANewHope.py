@@ -61,11 +61,3 @@ class ANewHope:
             if self._washing[shirt] != 0:
                 self._washing[shirt] -= 1
         self._washing[chosenshirt] += self._washdays
-
-test = ANewHope()
-print("Example 1")
-print(test.count((1, 2, 3, 4), (4, 3, 2, 1), 3))
-print("Example 2")
-print(test.count((8, 5, 4, 1, 7, 6, 3, 2), (2, 4, 6, 8, 1, 3, 5, 7), 3))
-print("Example 3")
-print(test.count((1, 2, 3, 4), (1, 2, 3, 4), 2))
