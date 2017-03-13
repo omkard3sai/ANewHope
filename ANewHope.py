@@ -8,11 +8,11 @@ class ANewHope:
         self._washing = None
         self._weekcount = None
 
-    def count(self, firstWeek, lastWeek, D):
-        if firstWeek == lastWeek:
+    def count(self, firstweek, lastweek, D):
+        if firstweek == lastweek:
             return 1
-        if set(firstWeek) == set(lastWeek) and len(lastWeek) > D:
-            self._initvalues(firstWeek, lastWeek, D)
+        if set(firstweek) == set(lastweek) and len(lastweek) > D:
+            self._initvalues(firstweek, lastweek, D)
             return self._countweeks()
         return 0
 
